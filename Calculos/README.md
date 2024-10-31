@@ -1,4 +1,4 @@
-<h1>Desafios</h1>
+<h1>Cálculos</h1>
 
 <h2>📌 Sobre</h2>
 <p>Projeto utilizado nos desafios dos cursos de lógica de programação da Alura.</p>
