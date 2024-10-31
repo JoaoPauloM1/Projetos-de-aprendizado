@@ -1,9 +1,20 @@
 function sortear() {
     let quantidade = parseInt(document.getElementById('quantidade').value);
+    //Colocar um limite de quantidade
+    if(quantidade > 25 || quantidade < 0) {
+        alert('A quantidade escolhida não pode ser maior que 25.');
+        reiniciar();
+        alterarStatusBotao();
+    } else {
     let de = parseInt(document.getElementById('de').value);
     let ate = parseInt(document.getElementById('ate').value);
-    let sorteados = [];
-    let numero;
+    if ((ate - de) < (quantidade -1)) {
+        alert('A quantidade escolhida é inválida.');
+        reiniciar();
+        alterarStatusBotao();
+    } else {
+        let sorteados = [];
+        let numero;
 
     for(let i = 0; i < quantidade; i++) {
         numero = gerarNumero(de, ate);
@@ -18,6 +29,9 @@ function sortear() {
     //innerHTML envia informações ao HTML
     resultado.innerHTML = `<label class="texto__paragrafo">Números sorteados:  ${sorteados}</label>`
     alterarStatusBotao();
+    }      
+    }
+    
 }
 
 function gerarNumero(min, max) {
