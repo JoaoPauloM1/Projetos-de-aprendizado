@@ -61,9 +61,11 @@ function areaCircular() {
 }
 
 function tabuada() {
+    let resultados = [];
     let valorTabuada = parseInt(prompt('Coloque o valor: '));
     if (verificarValor(valorTabuada)) return;
     for(let i = 1; i <= 10; i++) {
-        alert(valorTabuada * i);
+        resultados.push(valorTabuada * i);
     }
+    alert(resultados);
 }
