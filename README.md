@@ -2,3 +2,5 @@
 
 <h2>📌 Sobre</h2>
 <p>Aqui contém todos os meus projetos feito para aprendizado na faculdade e cursos na Alura.</p>
+
+![225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9](https://github.com/user-attachments/assets/d63550eb-453a-4d52-b75e-d1c57c1147e5)
