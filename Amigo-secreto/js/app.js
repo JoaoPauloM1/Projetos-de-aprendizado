@@ -2,7 +2,8 @@ let amigos = [];
 let sorteioRealizado = false;
 
 function adicionar() {
-    let amigo = document.getElementById('nome-amigo').value.trim();
+    let amigoInput = document.getElementById('nome-amigo');
+    let amigo = amigoInput.value.trim();
     let lista = document.getElementById('lista-amigos');
     if (amigo === "") {
         alert("Por favor, insira um nome válido.");
@@ -18,7 +19,8 @@ function adicionar() {
     } else {
         lista.textContent = lista.textContent + ', ' + amigo;
     }
-    amigo = '';
+    amigoInput.value = ''; // Limpa o campo de entrada na página
+    amigoInput.focus(); // Coloca o cursor de volta no campo de entrada
 }
 
 function sortear() {
