@@ -13,5 +13,5 @@
 ## 🛠️ Rodar o projeto
 
 <div>
-  <a href="https://fokus-omega-flame.vercel.app" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" target="_blank"></a>   
+  <a href="https://fokus-mauve-tau.vercel.app" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" target="_blank"></a>   
 </div>
