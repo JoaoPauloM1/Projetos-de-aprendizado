@@ -1,7 +1,7 @@
-<h1>Sabor Express</h1>
+<h1>Calculadora IMC</h1>
 
 <h2>📌 Sobre</h2>
-<p>Projeto utilizado nos desafios dos cursos de Python da Alura.</p>
+<p>Projeto utilizado para aprendizado em python.</p>
 
 ## 🚀 Tecnologias
 <div>
